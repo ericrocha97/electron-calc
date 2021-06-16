@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input type="text" id="result" readonly />
+  <div id="container">
+    <button class="double erase" onclick="erase()">C</button>
+    <button onclick="backspace()">CE</button>
+    <button onclick="addChar('/', true)">/</button>
+
+    <button class="number" onclick="addChar('7')">7</button>
+    <button class="number" onclick="addChar('8')">8</button>
+    <button class="number" onclick="addChar('9')">9</button>
+    <button onclick="addChar('*', true)">*</button>
+
+    <button class="number" onclick="addChar('4')">4</button>
+    <button class="number" onclick="addChar('5')">5</button>
+    <button class="number" onclick="addChar('6')">6</button>
+    <button onclick="addChar('-', true)">-</button>
+
+    <button class="number" onclick="addChar('1')">1</button>
+    <button class="number" onclick="addChar('2')">2</button>
+    <button class="number" onclick="addChar('3')">3</button>
+    <button onclick="addChar('+', true)">+</button>
+
+    <button disabled class="disable"></button>
+    <button class="number" onclick="addChar('0')">0</button>
+    <button onclick="addChar('.')">.</button>
+    <button onclick="calculate()" class="equal">=</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

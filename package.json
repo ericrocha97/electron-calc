@@ -1,0 +1,25 @@
+{
+  "name": "Calc",
+  "version": "1.0.0",
+  "description": "A Calc",
+  "main": "main.js",
+  "scripts": {
+    "start": "set ELECTRON_DEVELOP=true && electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Eric Rocha",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5",
+	"electron-reload": "^1.5.0"
+  },
+  "build": {
+    "appId": "dev.ericrocha.calc",
+    "productName": "Calculadora",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
