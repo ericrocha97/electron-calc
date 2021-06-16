@@ -15,6 +15,6 @@ yarn start
 ## To make a build
 
 ```bash
-yarn build
+yarn dist
 # The files will be in ./dist
 ```
