@@ -3,9 +3,9 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/ericrocha97/electron-calc
 # Go into the repository
-cd electron-quick-start
+cd electron-calc
 # Install dependencies
 yarn install
 # Run the app
